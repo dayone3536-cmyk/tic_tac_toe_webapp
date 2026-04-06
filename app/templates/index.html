@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<h1>WELCOME TO MY TIC TAC TOE... </h1> 
+
+
+
+<body>
+    <h1>
+    <form action="/move" method = "post">
+
+        <p> <button name="cell" value="0"> {{board[0]}} </button> | <button name="cell" value="1"> {{board[1]}} </button> | <button name="cell" value="2"> {{board[2]}} </button> </p>
+        <p>--------------</p>
+        <p> <button name="cell" value="3"> {{board[3]}} </button> | <button name="cell" value="4"> {{board[4]}} </button> | <button name="cell" value="5"> {{board[5]}} </button> </p>
+        <p>--------------</p>
+        <p> <button name="cell" value="6"> {{board[6]}} </button> | <button name="cell" value="7"> {{board[7]}} </button> | <button name="cell" value="8"> {{board[8]}} </button> </p> 
+
+    </form>
+
+    </h1>
+    <div>
+        <form action = "/restart" method="post">
+            <button>RESET</button>
+
+
+        </form>
+    </div>
+
+</body>
+</html>
